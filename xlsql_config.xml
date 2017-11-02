@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<properties>
+  <category name="general">
+    <property name="database" value="C:&#092;School&#092;Semester 8&#092;CSE485&#092;Writer&#092;API Test&#092;DatabaseAPITest"/>
+    <property name="engine" value="hsqldb"/>
+    <property name="log" value="xlsql.log"/>
+  </category>
+  <category name="hsqldb">
+    <property name="driver" value="org.hsqldb.jdbcDriver"/>
+    <property name="password" value=""/>
+    <property name="schema" value=""/>
+    <property name="url" value="jdbc:hsqldb:."/>
+    <property name="user" value="sa"/>
+  </category>
+</properties>
