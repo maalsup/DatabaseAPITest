@@ -1,10 +1,16 @@
-import java.util.ArrayList;
-
 public class Test 
 {
 	public static void main(String[] args)
 	{
-		Controller c = new Controller();
+		System.out.println("This is the right project.");
+		
+		for (int i=0; i<20; i++)
+		{
+			ControllerThread c = new ControllerThread(i);
+			c.start();
+		}
+		
+		/*Controller c = new Controller();
 		ArrayList<Student> student = new ArrayList<Student>();
 		
 		student = c.getStudents();
@@ -34,6 +40,7 @@ public class Test
 		System.out.println("Delete Student");
 		System.out.println();
 		
+		//while(true) { }
 		c.deleteStudent("testStudent");
 		
 		student = c.getStudents();
@@ -63,13 +70,13 @@ public class Test
 		c.getStudentInClubs();
 		c.deleteClub("Catapult Club");
 		c.getClubs();
-		c.getStudentInClubs();*/
+		c.getStudentInClubs();
 		
 		//c.getModules();
 		//c.insertModule("How To Fight Batman", 7);
 		//c.getModules();
 		c.deleteModule("How To Fight Batman");
-		//c.getModules();
+		//c.getModules();*/
 	}
 
 }
