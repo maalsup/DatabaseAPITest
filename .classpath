@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/DatabaseAPI.jar"/>
 	<classpathentry kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/commons-cli-1.0.jar"/>
 	<classpathentry kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/hsqldb.jar"/>
 	<classpathentry kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/jconfig.jar"/>
 	<classpathentry kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/jxl.jar"/>
 	<classpathentry kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/xlSQL_Y8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/School/Semester 8/CSE485/Writer/API Test/DatabaseAPITest/plugins/DatabaseAPI.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
